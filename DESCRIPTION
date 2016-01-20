@@ -1,9 +1,13 @@
-Package: EDAWR
-Title: Expert Data Analysis with R
+Encoding: UTF-8
+Package: EDAWRES
+Title: Análisis de datos Experto con R (en espanol)
 Version: 0.1
-Authors@R: 'Garrett Grolemund <garrett@rstudio.com> [aut,cre]'
-Description: Data sets for Expert Data Analysis with R,
-    a workshop by RStudio.
+Authors@R: as.person(c(
+    'Garrett Grolemund <garrett@rstudio.com> [aut,cre]',
+    'Frans van Dunné <frans@innovateonline.nl> [ctb]'
+    ))
+Description: Conjunto de de datos ejemplo basados en "Data sets for Expert Data
+    Analysis with R, a workshop by RStudio".
 Depends:
     R (>= 3.1.0)
 Imports:
@@ -11,4 +15,5 @@ Imports:
     babynames
 License: CC0
 LazyData: true
-URL: http://github.com/rstudio/EDAWR
+URL: http://github.com/fvd/EDAWRES
+RoxygenNote: 5.0.1

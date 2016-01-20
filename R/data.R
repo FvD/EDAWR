@@ -30,25 +30,24 @@
 #' \item{viento}{Velocidad máxima del viento medido para cada huracán (en
 #' millas por hora)}
 #' \item{presión}{Presión del aire en el centro de la tormenta (en milibares).}
-#' \item{fecha}{Fecha en la cual se observó la velocidad de viento máxima.
+#' \item{fecha}{Fecha en la cual se observó la velocidad de viento máxima.}
 #' }
 #'
 #' @source \url{http://www.nhc.noaa.gov/}
 #'
 "tormentas"
 
-#' TB cases in USA, Germany, and France
+#' Casos de TB en EEUU, Alemania y Francia
 #'
-#' A subset of data from the World Health Organization Global 
-#' Tuberculosis Report.
+#' Un subconjunto de datos del World Health Organization Global Tuberculosis
+#' Report.
 #'
-#' @format A dataset with the estimated number of TB cases in 
-#' France, Germany, and the United States for 2011, 2012, and 
-#' 2013. 
+#' @format Un conjunto de datos con el numero estimado de casos de TB en
+#' Francia, Alemania y los EEUU para 2011, 2012 y 2013.
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
 #'
-"cases"
+"casos"
 
 
 #' TB data
