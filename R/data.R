@@ -49,20 +49,19 @@
 #'
 "casos"
 
-
-#' TB data
+#' Datos TB
 #'
-#' A subset of data from the World Health Organization Global 
-#' Tuberculosis Report.
+#' Un subconjunto de datos del World Health Organization Global Tuberculosis
+#' Report.
 #'
-#' @format A dataset with the variables
+#' @format Un conjunto de datos con variables
 #' \describe{
-#' \item{country}{}
-#' \item{year}{}
-#' \item{sex}{}
-#' \item{child}{Number of new cases reported among people 0 - 14 years of age.}
-#' \item{adult}{Number of new cases reported among people 15 - 64 years of age.}
-#' \item{elderly}{Number of new cases reported among people over 64 years of age.}
+#' \item{país}{}
+#' \item{año}{}
+#' \item{sexo}{}
+#' \item{niño}{Numero de casos nuevos reportados entre personas de 0 - 14 años de edad.}
+#' \item{adulto}{Numero de casos nuevos reportados entre personas de 15 - 64 años de edad.}
+#' \item{mayor}{Numero de casos nuevos reportados entre personas de más de 64 años de edad.}
 #' }
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
