@@ -179,34 +179,34 @@
 #'
 "songs2"
 
-#' Toy data
+#' Datos mínimos
 #'
-#' Meaningless numbers and letters.
+#' Cifras y letras sin significado.
 #'
 "y"
 
-#' Toy data
+#' Datos mínimos
 #'
-#' Meaningless numbers and letters.
+#' Cifras y letras sin significado.
 #'
 "z"
 
-#' Toy data
+#' Datos mínimos
 #'
-#' Meaningless numbers and letters.
+#' Cifras y letras sin significado.
 #'
 "a"
 
-#' Toy data
+#' Datos mínimos
 #'
-#' Meaningless numbers and letters.
+#' Cifras y letras sin significado.
 #'
 "b"
 
 
-#' Toy data
+#' Datos mínimos
 #'
-#' A data set that has a tricky set of missing values to work with.
+#' Un conjunto de datos una serie de datos faltantes mañosa.
 #'
 "nas"
 
