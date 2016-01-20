@@ -154,11 +154,12 @@
 "tidypop"
 
 
-#' Names of musicians
+#' Nombres de musicos
 #'
-#' A simple data set of musicians and the instruments they played.
+#' Un conjunto de datos simple, consistiendo de nombres de músicos y los instrumentos
+#' que tocan (o tocaban).
 #'
-"artists"
+"artistas"
 
 #' Names of musicians
 #'

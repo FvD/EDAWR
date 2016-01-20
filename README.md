@@ -1,16 +1,20 @@
-# Data sets for Expert Data Analysis with R workshop by [RStudio](http://www.rstudio.com)
+# Datos ejemplo para talleres R
+ 
+Estos datos estan basados en el [Data sets for Expert Data Analysis with R workshop](https://github.com/rstudio/EDAWR) de [RStudio](http://www.rstudio.com). La diferencia aqui es que todos los nombres de las variables han sido traducidas al español. El objetivo es reducir a lo máximo posible las barreras para entender los ejemplos, y distinguir claramente entre lo que son palabras de sintaxis R, y nombres de variables.
 
-* __pollution__
+Los datos incluyen los siguientes conjuntos de datos:
+
+* __polución__
   
-  Average level of particulate air polution (10 ug/m3 and 2.5 ug/m3) for New York City, London, and Beijing. From [World Health Organization Ambient Air Pollution Database](http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/).
+  Nivel promedio de polución con particulas del aire en Nueva York, Londres y Beijing (10 ug/m3 and 2.5 ug/m3). Tomodos del [World Health Organization Ambient Air Pollution Database](http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/).
 
 
-* __storms__
+* __tormentas__
   
-  Maximum wind speeds for six Atlantic hurricanes. From [National Hurricane Center's archive of Tropical Cyclone Reports](http://www.nhc.noaa.gov/).
+  Niveles maximos de la velocidad del viento en seis hurracanes Atlánticos. Del [National Hurricane Center's archive of Tropical Cyclone Reports](http://www.nhc.noaa.gov/).
 
 * __tb__
 
-  Number of tuberculosis cases reported in France, Germany and United States 2011-2013. From [World Health Organization Global Tuberculosis Report](http://www.who.int/tb/country/data/download/en/).
+  Numero de casos de tuberculosis reportado en Francia, Alemania y los Estados Unidos de America 2011-2013. Del [World Health Organization Global Tuberculosis Report](http://www.who.int/tb/country/data/download/en/).
 
-Install from github with `devtools::install_github("rstudio/EDAWR")`.
+Para instalar desde github usa: `devtools::install_github("fvd/EDAWR")`.
