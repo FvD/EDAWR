@@ -3,36 +3,39 @@
 #' Datos de polución del WHO, 2014. Este conjunto de datos contiene un
 #' subconjunto de los datos del Ambient Air Pollution Database, WHO, Mayo 2014.
 #'
-#' @format Un data frame con variables: 
+#' @format Un marco de datos con variables: 
 #' \describe{
-#' \item{ciudad}{Nombre de la ciudad: New York (Nueva York), London (Londres), o Beijing}
-#' \item{tamaño}{Tamaño del aire particulado medido. Finas particulas
-#' suspendidas de tamaño menor a 10 micrones en diametro, (\code{large}) y 2.5
-#' micrones en diametro (\code{small}).} 
-#' \item{cantidad}{La cantidad anual promedio de concentración de particulas en miligramos por metro cúbico (ug/m3)}
+#' \item{ciudad}{Nombre de la ciudad: New York (Nueva York), London (Londres),
+#' o Beijing}
+#' \item{tamaño}{Tamaño del aire particulado medido. Finas partículas
+#' suspendidas de tamaño menor a 10 micrones en diámetro, (\code{large}) y 2.5
+#' micrones en diámetro (\code{small}).} 
+#' \item{cantidad}{La cantidad anual promedio de concentración de partículas en
+#' miligramos por metro cúbico (ug/m3)}
 #' }
 #'
 #' @source \url{http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/}
 #'
 "polucion"
 
-#' Hurricane data
+#' Datos de huracanes
 #'
-#' Wind speed data for six hurricanes, collected from 
-#' National Hurricane Center's archive of Tropical Cyclone 
-#' Reports.
+#' Velocidades de viento para seis huracanes, reunidos del archivo de Centro
+#' Nacional de Huracanes en sus informes sobre Ciclones Tropicales.
 #'
-#' @format A data frame with variables:
+#' @format Un marco de datos con variables: 
 #' \describe{
-#' \item{storm}{Name of hurricane: Alberto, Alex, Allison, Ana, Arlene, Arthur.}
-#' \item{wind}{Maximum wind speed measured for each hurricane (in miles per hour).}
-#' \item{pressure}{Air pressure in the storm's center (in millibars).}
-#' \item{date}{Date maximum wind speed was observed.}
+#' \item{tormenta}{Nombre del huracán: Alberto, Alex, Allison, Ana, Arlene,
+#' Arthur.}
+#' \item{viento}{Velocidad máxima del viento medido para cada huracán (en
+#' millas por hora)}
+#' \item{presión}{Presión del aire en el centro de la tormenta (en milibares).}
+#' \item{fecha}{Fecha en la cual se observó la velocidad de viento máxima.
 #' }
 #'
 #' @source \url{http://www.nhc.noaa.gov/}
 #'
-"storms"
+"tormentas"
 
 #' TB cases in USA, Germany, and France
 #'
