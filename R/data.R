@@ -1,19 +1,20 @@
-#' Pollution data
+#' Datos de polución
 #'
-#' Pollution data from the WHO, 2014. This dataset contains
-#' a subset of data from the Ambient Air Pollution Database, 
-#' WHO, May 2014.
+#' Datos de polución del WHO, 2014. Este conjunto de datos contiene un
+#' subconjunto de los datos del Ambient Air Pollution Database, WHO, Mayo 2014.
 #'
-#' @format A data frame with variables:
+#' @format Un data frame con variables: 
 #' \describe{
-#' \item{city}{Name of city: New York, London, or Beijing}
-#' \item{Size}{Size of air particulate measured. Fine suspended particles smaller than 10 microns in diameter (\code{large}) and 2.5 microns in diameter (\code{small}).}
-#' \item{amount}{The mean annual concentration of particles in milligrams per meter cubed (ug/m3)}
+#' \item{ciudad}{Nombre de la ciudad: New York (Nueva York), London (Londres), o Beijing}
+#' \item{tamaño}{Tamaño del aire particulado medido. Finas particulas
+#' suspendidas de tamaño menor a 10 micrones en diametro, (\code{large}) y 2.5
+#' micrones en diametro (\code{small}).} 
+#' \item{cantidad}{La cantidad anual promedio de concentración de particulas en miligramos por metro cúbico (ug/m3)}
 #' }
 #'
 #' @source \url{http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/}
 #'
-"pollution"
+"polucion"
 
 #' Hurricane data
 #'
