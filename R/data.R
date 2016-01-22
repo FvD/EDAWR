@@ -98,23 +98,23 @@
 "who"
 
 
-#' TB rates
+#' Tasas de TB
 #'
-#' A subset of data from the World Health Organization Global 
-#' Tuberculosis Report, manipulated to show TB rates by country by year.
+#' Un subconjunto de datos del informe sobre Tuberculosis de la Organización
+#' Mundial de Salud, manipulado para mostrar las tasas de TB por país por año.
 #'
-#' @format A dataset with the variables
+#' @format Un conjunto de datos con variables
 #' \describe{
-#' \item{country}{}
-#' \item{year}{}
-#' \item{cases}{Number of new cases of TB reported}
-#' \item{population}{}
-#' \item{rate}{Number of new cases of TB reported per 10,000 people.}
+#' \item{país}{}
+#' \item{año}{}
+#' \item{casos}{Numero de nuevos casos de TB reportados}
+#' \item{populación}{}
+#' \item{tasa}{Numero de nuevos casos de TB reportados por cada 10,000 personas.}
 #' }
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
 #'
-"rates"
+"tasas"
 
 #' Raw TB data
 #'
