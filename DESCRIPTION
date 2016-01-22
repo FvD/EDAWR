@@ -1,6 +1,6 @@
 Encoding: UTF-8
 Package: EDAWRES
-Title: Análisis de datos Experto con R (en espanol)
+Title: Análisis de datos Experto con R (en español)
 Version: 0.1
 Authors@R: as.person(c(
     'Garrett Grolemund <garrett@rstudio.com> [aut,cre]',
@@ -15,5 +15,5 @@ Imports:
     babynames
 License: CC0
 LazyData: true
-URL: http://github.com/fvd/EDAWRES
+URL: http://github.com/fvd/EDAWR-ES
 RoxygenNote: 5.0.1
