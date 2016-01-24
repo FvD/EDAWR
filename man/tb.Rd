@@ -20,8 +20,8 @@
 tb
 }
 \description{
-Un subconjunto de datos del World Health Organization Global Tuberculosis
-Report.
+Un subconjunto de datos del informe de Tuberculosis de la Organización
+Mundial de la Salud.
 }
 \keyword{datasets}
 

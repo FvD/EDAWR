@@ -13,8 +13,8 @@ Francia, Alemania y los EEUU para 2011, 2012 y 2013.}
 casos
 }
 \description{
-Un subconjunto de datos del World Health Organization Global Tuberculosis
-Report.
+Un subconjunto de datos del informe de Tuberculosis de la Organización
+Mundial de la Salud.
 }
 \keyword{datasets}
 

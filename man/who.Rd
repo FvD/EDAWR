@@ -18,7 +18,7 @@
 who
 }
 \description{
-Un subconjunto de datos del informe de Tuberculosis d la Organización
+Un subconjunto de datos del informe de Tuberculosis de la Organización
 Mundial de la Salud.
 }
 \details{
