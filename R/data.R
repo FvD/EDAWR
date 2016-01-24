@@ -1,7 +1,8 @@
 #' Datos de polución
 #'
-#' Datos de polución del WHO, 2014. Este conjunto de datos contiene un
-#' subconjunto de los datos del Ambient Air Pollution Database, WHO, Mayo 2014.
+#' Datos de polución del OMS, 2014. Este conjunto de datos contiene un
+#' subconjunto de los datos de la Base de Datos de Polución Ambiental Aérea,
+#' OMS, Mayo 2014.
 #'
 #' @format Un marco de datos con variables: 
 #' \describe{
@@ -100,7 +101,7 @@
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
 #'
-"who"
+"oms"
 
 
 #' Tasas de TB

@@ -21,8 +21,9 @@ miligramos por metro cúbico (ug/m3)}
 polucion
 }
 \description{
-Datos de polución del WHO, 2014. Este conjunto de datos contiene un
-subconjunto de los datos del Ambient Air Pollution Database, WHO, Mayo 2014.
+Datos de polución del OMS, 2014. Este conjunto de datos contiene un
+subconjunto de los datos de la Base de Datos de Polución Ambiental Aérea,
+OMS, Mayo 2014.
 }
 \keyword{datasets}
 
