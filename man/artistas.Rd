@@ -3,7 +3,7 @@
 \docType{data}
 \name{artistas}
 \alias{artistas}
-\title{Nombres de musicos}
+\title{Nombres de músicos}
 \format{An object of class \code{data.frame} with 4 rows and 2 columns.}
 \usage{
 artistas

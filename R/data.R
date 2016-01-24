@@ -170,31 +170,31 @@
 "ordpop"
 
 
-#' Nombres de musicos
+#' Nombres de músicos
 #'
 #' Un conjunto de datos simple, consistiendo de nombres de músicos y los instrumentos
 #' que tocan (o tocaban).
 #'
 "artistas"
 
-#' Nombres de musicos
+#' Nombres de músicos
 #'
 #' Un segundo conjunto de datos simple, consistiendo de nombres de músicos y
 #' los instrumentos que tocan (o tocaban).
 #'
 "artistas2"
 
-#' Names of songs
+#' Nombres de canciones
+#' 
+#' Una lista simple de canciones pop y sus autores
 #'
-#' A simple list of pop songs and their authors
-#'
-"songs"
+"canciones"
 
-#' Names of songs
+#' Nombres de canciones
 #'
-#' A second simple list of pop songs and their authors
+#' Una segunda lista simple de canciones pop y sus autores
 #'
-"songs2"
+"canciones2"
 
 #' Datos mínimos
 #'
