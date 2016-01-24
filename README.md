@@ -22,9 +22,14 @@ Los datos incluyen los siguientes conjuntos de datos:
 
   Numero de casos de tuberculosis reportado en Francia, Alemania y los Estados Unidos de América 2011-2013. Del [World Health Organization Global Tuberculosis Report](http://www.who.int/tb/country/data/download/en/).
 
+* __nutricion__
+
+  Datos de nutrición de 8463 alimentos reunidos por el departamento de agricultura de los EEUU (USDA). Del [paquete usdanutrients](http://www.ars.usda.gov/Services/docs.htm?docid=8964).
+
+
 Para instalar desde github usa: `devtools::install_github("fvd/EDAWR-ES")`.
 
-Nota: Para los nombres de columnas se usan tildes donde lo dicta la ortografía,
+**Nota:** *Para los nombres de columnas se usan tildes donde lo dicta la ortografía,
 pero para los nombres de archivos no (por ejemplo polucion.rdata). Los nombres
 de los objetos que contienen los conjuntos de datos siguen esta convención 
-(así que también es polución sin tilde para llamar el objeto).
+(así que también es polución sin tilde para llamar el objeto).*
