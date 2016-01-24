@@ -177,11 +177,12 @@
 #'
 "artistas"
 
-#' Names of musicians
+#' Nombres de musicos
 #'
-#' A second simple data set of musicians and the instruments they played.
+#' Un segundo conjunto de datos simple, consistiendo de nombres de músicos y
+#' los instrumentos que tocan (o tocaban).
 #'
-"artists2"
+"artistas2"
 
 #' Names of songs
 #'
