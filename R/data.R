@@ -39,8 +39,8 @@
 
 #' Casos de TB en EEUU, Alemania y Francia
 #'
-#' Un subconjunto de datos del World Health Organization Global Tuberculosis
-#' Report.
+#' Un subconjunto de datos del informe de Tuberculosis de la Organización
+#' Mundial de la Salud.
 #'
 #' @format Un conjunto de datos con el numero estimado de casos de TB en
 #' Francia, Alemania y los EEUU para 2011, 2012 y 2013.
@@ -51,8 +51,8 @@
 
 #' Datos TB
 #'
-#' Un subconjunto de datos del World Health Organization Global Tuberculosis
-#' Report.
+#' Un subconjunto de datos del informe de Tuberculosis de la Organización
+#' Mundial de la Salud.
 #'
 #' @format Un conjunto de datos con variables
 #' \describe{
@@ -70,7 +70,7 @@
 
 #' Datos TB de la Organización Mundial de la Salud
 #'
-#' Un subconjunto de datos del informe de Tuberculosis d la Organización
+#' Un subconjunto de datos del informe de Tuberculosis de la Organización
 #' Mundial de la Salud.
 #'
 #' @format Un conjunto de datos con variables
@@ -116,54 +116,58 @@
 #'
 "tasas"
 
-#' Raw TB data
+#' Datos crudos TB
 #'
-#' A subset of the data in the \code{\link{tb}} data set. The data displays each individual TB case from Afghanistan, Algeria, Angola, Argentina, Azerbaijan, Belarus, Benin, Botswana, and Burundi in its own row.
+#' Un subconjunto de los datos en \code{\link{tb}}. Los datos muestran cada
+#' caso individual de Afganistán, Argelia, Angola, Argentina, Azerbaiyán,
+#' Bielorrusia, Benin, Botsuana y Burundi en su propia fila. 
 #'
-#' @format A dataset with the variables
+#' @format Un conjunto de datos con variables
 #' \describe{
-#' \item{country}{}
-#' \item{year}{}
-#' \item{sex}{}
-#' \item{age}{One of \code{child} (0 - 14 years of age), \code{adult} (15 - 64 years of age), or \code{elderly} (over 64 years of age).}
-#' \item{n}{Number of cases: in this layout, one.}
+#' \item{país}{}
+#' \item{año}{}
+#' \item{sexo}{}
+#' \item{edad}{Uno de \code{niño} (0 - 14 años de edad), \code{adulto} (15 - 64
+#' años de edad), o \code{mayor} (mas de 64 años de edad).}
+#' \item{n}{Numero de casos: in en esta vista, uno.}
 #' }
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
 #'
-"rawtb"
+"tbcrudo"
 
-#' Toy TB data
+#' Datos mínimos TB
 #'
-#' A toy data set based on the \code{\link{tb}} data set. The data displays an imaginary number of TB cases grouped by country, year, and sex.
+#' Un conjunto de datos mínimo del conjunto de datos \code{\link{tb}}. Los
+#' datos muestran un numero imaginario de casos de TB agrupados por país, año y
+#' sexo.
 #'
-#' @format A data frame with the columns
+#' @format Un data frame con columnas
 #' \describe{
-#' \item{country}{}
-#' \item{year}{}
-#' \item{sex}{}
-#' \item{cases}{}
+#' \item{país}{}
+#' \item{año}{}
+#' \item{sexo}{}
+#' \item{casos}{}
 #' }
-"toyb"
+"mintb"
 
 
-#' Population data
+#' Datos de población
 #'
-#' Populations of 100 countries for 1995-2013 laid out in table format
+#' Población de 100 países para 1995-2013 presentados en formato tabla.
+#' 
+#' @source \url{http://www.who.int/tb/country/data/download/en/}
+#'
+"poblacion"
+
+#' Datos de población
+#'
+#' Población de 100 países para 1995-2013 presentados en formato ordenado.
 #'
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
 #'
-"population"
-
-#' Population data
-#'
-#' Populations of 100 countries for 1995-2013 laid out in tidy format
-#'
-#' 
-#' @source \url{http://www.who.int/tb/country/data/download/en/}
-#'
-"tidypop"
+"ordpop"
 
 
 #' Nombres de musicos
