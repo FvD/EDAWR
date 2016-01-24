@@ -59,9 +59,12 @@
 #' \item{país}{}
 #' \item{año}{}
 #' \item{sexo}{}
-#' \item{niño}{Numero de casos nuevos reportados entre personas de 0 - 14 años de edad.}
-#' \item{adulto}{Numero de casos nuevos reportados entre personas de 15 - 64 años de edad.}
-#' \item{mayor}{Numero de casos nuevos reportados entre personas de más de 64 años de edad.}
+#' \item{niño}{Numero de casos nuevos reportados entre personas de 0 - 14 años
+#' de edad.}
+#' \item{adulto}{Numero de casos nuevos reportados entre personas de 15 - 64
+#' años de edad.}
+#' \item{mayor}{Numero de casos nuevos reportados entre personas de más de 64
+#' años de edad.}
 #' }
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
@@ -78,7 +81,9 @@
 #' \item{país}{}
 #' \item{iso2}{Código ISO de países con dos letras}
 #' \item{iso3}{Código ISO de países con tres letras}
-#' \item{new_sp_m014 - new_rel_f65}{Conteos de nuevos casos de TB registrado por grupo. Los nombres de las columnas codifican para tres variables que describe el grupo (vea los detalles).}
+#' \item{new_sp_m014 - new_rel_f65}{Conteos de nuevos casos de TB registrado
+#' por grupo. Los nombres de las columnas codifican para tres variables que
+#' describe el grupo (vea los detalles).}
 #' }
 #' 
 #' @details Los datos usan los códigos originales como definidos por la
@@ -109,7 +114,8 @@
 #' \item{año}{}
 #' \item{casos}{Numero de nuevos casos de TB reportados}
 #' \item{populación}{}
-#' \item{tasa}{Numero de nuevos casos de TB reportados por cada 10,000 personas.}
+#' \item{tasa}{Numero de nuevos casos de TB reportados por cada 10,000
+#' personas.}
 #' }
 #' 
 #' @source \url{http://www.who.int/tb/country/data/download/en/}
@@ -172,8 +178,8 @@
 
 #' Nombres de músicos
 #'
-#' Un conjunto de datos simple, consistiendo de nombres de músicos y los instrumentos
-#' que tocan (o tocaban).
+#' Un conjunto de datos simple, consistiendo de nombres de músicos y los
+#' instrumentos que tocan (o tocaban).
 #'
 "artistas"
 
@@ -228,12 +234,15 @@
 "nas"
 
 
-#' Nutrition data
+#' Datos de nutrición
 #'
-#' Nutrition data on 8463 foods provided by the United States Department of Agriculture (USDA). The dataset contains the amount of 25 nutrients and macronutrients found in 100 grams of each food, as well as the name, total calories, and food group for each food.
+#' Datos de nutrición de 8463 alimentos reunidos por el departamento de
+#' agricultura de los EEUU (USDA). El conjunto de datos contiene la cantidad de
+#' 25 nutrientes y macronutrientes encontrados en 100 gramos de cada alimento,
+#' así como el nombre, numero de calorías total y grupo alimenticio.
 #' 
-#' The nutrition data was compiled from data sets in the \code{\link[usdanutrients]{usdanutrients}} package.
-#'  
+#' Los datos de nutrición fué compilado con base en conjuntos de datos en el
+#' paquete \code{\link[usdanutrients]{usdanutrients}}.  
 #' @source \url{http://www.ars.usda.gov/Services/docs.htm?docid=8964}
 #'
-"nutrition"
+"nutricion"

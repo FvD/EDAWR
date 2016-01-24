@@ -9,7 +9,9 @@
 \item{país}{}
 \item{iso2}{Código ISO de países con dos letras}
 \item{iso3}{Código ISO de países con tres letras}
-\item{new_sp_m014 - new_rel_f65}{Conteos de nuevos casos de TB registrado por grupo. Los nombres de las columnas codifican para tres variables que describe el grupo (vea los detalles).}
+\item{new_sp_m014 - new_rel_f65}{Conteos de nuevos casos de TB registrado
+por grupo. Los nombres de las columnas codifican para tres variables que
+describe el grupo (vea los detalles).}
 }}
 \source{
 \url{http://www.who.int/tb/country/data/download/en/}

@@ -9,8 +9,8 @@
 artistas
 }
 \description{
-Un conjunto de datos simple, consistiendo de nombres de músicos y los instrumentos
-que tocan (o tocaban).
+Un conjunto de datos simple, consistiendo de nombres de músicos y los
+instrumentos que tocan (o tocaban).
 }
 \keyword{datasets}
 

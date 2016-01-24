@@ -9,9 +9,12 @@
 \item{país}{}
 \item{año}{}
 \item{sexo}{}
-\item{niño}{Numero de casos nuevos reportados entre personas de 0 - 14 años de edad.}
-\item{adulto}{Numero de casos nuevos reportados entre personas de 15 - 64 años de edad.}
-\item{mayor}{Numero de casos nuevos reportados entre personas de más de 64 años de edad.}
+\item{niño}{Numero de casos nuevos reportados entre personas de 0 - 14 años
+de edad.}
+\item{adulto}{Numero de casos nuevos reportados entre personas de 15 - 64
+años de edad.}
+\item{mayor}{Numero de casos nuevos reportados entre personas de más de 64
+años de edad.}
 }}
 \source{
 \url{http://www.who.int/tb/country/data/download/en/}

@@ -10,7 +10,8 @@
 \item{año}{}
 \item{casos}{Numero de nuevos casos de TB reportados}
 \item{populación}{}
-\item{tasa}{Numero de nuevos casos de TB reportados por cada 10,000 personas.}
+\item{tasa}{Numero de nuevos casos de TB reportados por cada 10,000
+personas.}
 }}
 \source{
 \url{http://www.who.int/tb/country/data/download/en/}
